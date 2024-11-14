@@ -1,0 +1,249 @@
+.body{
+    padding: 0;
+    margin: 0;
+}
+.upper_box{
+    height : 150px;
+    width: 100%;
+    border: solid 2px black;
+    display: flex;
+    align-items: center;
+    background-color: #ba5d2f;
+}
+.border:hover{
+    border: solid 2px grey;
+    border-radius: 20px;
+}
+.book_logo{
+    height: 140px;
+    width: 140px;
+    background-image: url('book.png');
+    background-size: cover;
+    margin: 20px;
+}
+.upstore_name{
+    font-family: Arial;
+    font-size: 50px;  
+    margin-bottom: 60px;
+    align-items:center;  
+    color: white;
+}
+.downstore_name{
+    font-family: Arial;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: -145px;
+    align-items:center;  
+    color: white;
+}
+.about{
+    height: 50px;
+    width: 140px;
+    margin-left: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: Georgia;
+}
+.contact{
+    height: 50px;
+    width: 150px;
+    margin-left: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: Georgia;
+}
+.shopping{
+    height: 50px;
+    width: 150px;
+    margin-left: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: Georgia;
+}
+.Home{
+    height: 50px;
+    width: 150px;
+    margin-left: 330px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: Georgia;
+}
+
+
+.select{
+    height: 50px;
+    width: 150px;
+    margin-left: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: Georgia;
+}
+.bottom_box{
+    height: auto;
+    width: 100%;
+    border: solid 2px black;
+    /* margin:auto; */
+    margin-top: 10px;
+}
+.video{
+    height: 600px;
+    width: 100%; 
+    background-image: url(lightbook.jpg);
+    background-size: cover;
+}
+.down_box{
+    height: 700px;
+    width: 100%;
+    border: solid 2px black;
+    /* margin:auto; */
+    margin-top: 10px;
+    background-image: url(exbook.jpg);
+    background-size: cover;
+}
+.contact_table{
+    width: 600px;
+    margin-left: 70px;
+    
+}
+input{
+    border-radius: 10px;
+    padding: 10px;
+    border: solid 3px brown;
+    text-align: left;
+    font-size: 18px;
+    width: 350px;
+}
+.btn{
+    width: 510px;
+    height: 50px;
+    background-color: #ba5d2f;
+    border-radius: 10px;
+    color: white;
+    border-color: white;
+    font-size: 21px;
+}
+textarea{
+    width: 350px;
+    border-radius: 10px;
+    padding: 10px;
+    border: solid 3px brown;
+    text-align: left;
+    font-size: 18px;
+}
+.h1{
+    margin-left: 250px;
+    color: white;
+}
+label{
+    font-size: 21px;
+    color: white;
+}
+.location{
+    margin-left: 900px;
+    margin-top: -550px;
+}
+.dn_box{
+    height: 1000px;
+    width: 100%;
+    border: solid 2px black;
+    margin-top: 10px;
+    background-image: url(readbook.jpg);
+    background-size: cover;
+}
+.up_left_box{
+    height: 250px;
+    width: 400px;
+    border: solid 2px beige;
+    border-radius: 18px;
+    margin-left: 350px;
+    margin-top: 50px;
+    background-color: beige;
+}
+.heading1{
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.churan1{
+    font-size: 16px;
+    margin-top: 35px;
+    margin-left: 25px;
+    margin-right:25px ;
+}
+.dn_left_box{
+    height: 250px;
+    width: 400px;
+    border: solid 2px beige;
+    border-radius: 18px;
+    margin-left: 350px;
+    margin-top: 30px;
+    background-color: beige;
+}
+.heading2{
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.churan2{
+    font-size: 16px;
+    margin-top: 35px;
+    margin-left: 25px;
+    margin-right:25px ;
+}
+.up_right_box{
+    height: 250px;
+    width: 400px;
+    border: solid 2px beige;
+    border-radius: 18px;
+    margin-left: 800px;
+    margin-top: -535px;
+    background-color: beige;
+}
+.heading3{
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.churan3{
+    font-size: 16px;
+    margin-top: 35px;
+    margin-left: 25px;
+    margin-right:25px ;
+}
+.dn_right_box{
+    height: 250px;
+    width: 400px;
+    border: solid 2px beige;
+    border-radius: 18px;
+    margin-left: 800px;
+    margin-top: 30px;
+    background-color: beige; 
+}
+.heading4{
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.churan4{
+    font-size: 16px;
+    margin-top: 35px;
+    margin-left: 25px;
+    margin-right:25px ;
+}
+.heading{
+    font-size: 25px;
+    margin-left:300px ;
+    margin-top: 40px;
+}
+.main_heading{
+    margin-left: 700px;
+    margin-top: 50px;
+}
+.dnbox{
+    height: 1200px;
+    width: 100%;
+    border: solid 2px black;
+}
+.book1{
+    width: 200px;
+}
