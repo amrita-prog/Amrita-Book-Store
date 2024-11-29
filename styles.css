@@ -1,5 +1,5 @@
 /* home page */
-.body{
+body{
     padding: 0;
     margin: 0;
 }
@@ -103,7 +103,7 @@
     width: 100%;
     border: solid 2px black;
     margin-top: 10px;
-    background-color: #6a7a8f;
+    background-color: #99cccb;
     /* color: white; */
 }
 .footer_head{
