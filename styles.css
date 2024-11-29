@@ -1,41 +1,41 @@
+/* home page */
 .body{
     padding: 0;
     margin: 0;
 }
 .upper_box{
-    height : 150px;
+    height : 130px;
     width: 100%;
     border: solid 2px black;
     display: flex;
     align-items: center;
-    background-color: #ba5d2f;
+    background-color: #99cccb;
 }
 .border:hover{
     border: solid 2px grey;
     border-radius: 20px;
 }
 .book_logo{
-    height: 140px;
-    width: 140px;
-    background-image: url('book.png');
+    height: 200px;
+    width: 200px;
     background-size: cover;
-    margin: 20px;
+    margin-left: 100px;
 }
-.upstore_name{
+/* .upstore_name{
     font-family: Arial;
     font-size: 50px;  
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     align-items:center;  
     color: white;
 }
 .downstore_name{
     font-family: Arial;
     font-size: 30px;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: -145px;
     align-items:center;  
     color: white;
-}
+} */
 .about{
     height: 50px;
     width: 140px;
@@ -68,41 +68,90 @@
     font-size: 20px;
     font-family: Georgia;
 }
-
-
-.select{
-    height: 50px;
-    width: 150px;
-    margin-left: 20px;
-    border-radius: 20px;
-    font-size: 20px;
-    font-family: Georgia;
+.left{
+    height: 300px;
+    width: 500px;
+    /* border: solid 2px black; */
+    margin-left: 160px;
+    margin-top: 150px;
+    font-size: 85px;
+    /* background-color: lavender; */
+}
+.image{
+    height: 90px;
+    width: 90px;
+}
+.right{
+    height: 400px;
+    width: 500px;
+    border: solid 2px black;
+    background-image: url(img/front.jpg);
+    background-size: cover;
+    margin-left: 860px;
+    margin-top: -350px;
 }
 .bottom_box{
-    height: auto;
+    height: 700px;
     width: 100%;
     border: solid 2px black;
     /* margin:auto; */
     margin-top: 10px;
+    background-color: rgb(227, 164, 216);
 }
-.video{
-    height: 600px;
-    width: 100%; 
-    background-image: url(lightbook.jpg);
-    background-size: cover;
+.footer{
+    height: 300px;
+    width: 100%;
+    border: solid 2px black;
+    margin-top: 10px;
+    background-color: #6a7a8f;
+    /* color: white; */
 }
+.footer_head{
+    /* color: white; */
+    width: 680px;
+    /* border: solid 2px white; */
+    font-size: 22px;
+    margin-left: 430px;
+    margin-top: 20px;
+}
+.thing_left{
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.thing_right{
+    margin-left: 450px;
+    margin-top: -120px;
+}
+.amrita{
+   margin-left: 600px;
+   margin-top: -180px;
+}
+.footer_logo{
+    height: 45px;
+    width: 200px;
+    border: solid 2px black;
+    margin-left: 830px;
+    margin-top: -150px;
+}
+
+
+
+/* contact us page */
+
+
+
 .down_box{
     height: 700px;
     width: 100%;
     border: solid 2px black;
     /* margin:auto; */
     margin-top: 10px;
-    background-image: url(exbook.jpg);
+    background-image: url(img/exbook.jpg);
     background-size: cover;
 }
 .contact_table{
     width: 600px;
-    margin-left: 70px;
+    margin-left: 470px;
     
 }
 input{
@@ -131,7 +180,7 @@ textarea{
     font-size: 18px;
 }
 .h1{
-    margin-left: 250px;
+    margin-left: 650px;
     color: white;
 }
 label{
@@ -139,15 +188,18 @@ label{
     color: white;
 }
 .location{
-    margin-left: 900px;
-    margin-top: -550px;
+    margin-left: 1370px;
+    margin-top: -650px;
+    color: white;
+    font-size: 25px;
+    
 }
 .dn_box{
     height: 1000px;
     width: 100%;
     border: solid 2px black;
     margin-top: 10px;
-    background-image: url(readbook.jpg);
+    background-image: url(img/readbook.jpg);
     background-size: cover;
 }
 .up_left_box{
@@ -239,11 +291,177 @@ label{
     margin-left: 700px;
     margin-top: 50px;
 }
-.dnbox{
-    height: 1200px;
+
+/* cart page */
+.b_box{
+    height: 1050px;
+    width: 100%;
+    /* border: solid 2px ; */
+}
+.prod{
+    height: 350px;
+    border: solid 2px black;
+    align-items: center ;
+    border-radius: 10px;
+}
+.main_table{
+    height: 300px;
+    border: solid 2px black;
+    width: 400px;
+}
+.table{
+    margin: auto;
+}
+.service{
+    height: 50px;
+    width: 1333px;
+    border: solid 2px black;
+    /* margin: auto; */
+    font-size: 23px;
+    border-radius: 15px;
+    margin-left: 85px;
+    margin-top: 15px;
+    background-color:#c58f74;
+    color: white;
+}
+.table_td{
+    margin: auto;
+    border-radius: 10px;
+    background-color:#d48bc1;
+}
+.cart_img{
+    border: solid 2px black;
+    margin-left:27px;
+    margin-right:27px;
+    margin-top: 20px;
+}
+.h2_cake{
+    /* margin: auto; */
+    margin-left: 80px;
+    font-size: 20px;
+}
+.p_cake{
+    margin-left: 80px;
+    margin-top: -10px;
+}
+.btn_book_cart{
+    
+    height: 50px;
+    width: 100px;
+    font-size: 15px;
+    background-color: #98bdd0;
+    margin-left: 50px;
+}
+
+
+
+
+/** product page **/
+
+
+.prod_down{
+    height: 700px;
     width: 100%;
     border: solid 2px black;
+    background-color:#bfdddc;
+    margin-top: 10px;
 }
-.book1{
-    width: 200px;
+.product{
+    height: 525px;
+    width: 350px;
+    border: solid 4px black;
+    margin-top: 50px;
+    margin-left: 250px;
+    background-size: cover;
+}
+.prod_name{
+    font-size: 38px;
+    /* margin-left: 730px;
+    margin-top: -450px; */
+}
+.rating{
+    /* margin-left: 70px; */
+    margin-top: 3px;
+    height: 30px;
+
+}
+.checked{
+    color: orange;
+}
+.price{
+    /* margin-left: 740px; */
+    margin-top: 50px;
+    font-size: 27px;
+}
+.gst{
+    margin-top: -24px;
+    font-size: 16px;
+    margin-left: 90px;
+    color: rgb(77, 36, 172);
+}
+button{
+    height: 50px;
+    width: 70px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: solid 2px black;
+    margin: 5px;
+    /* background-color: #C68E17; */
+    /* margin-left: 100px; */
+}
+.right_box{
+    height:600px ;
+    width: 450px;
+    border: solid 4px #bfdddc;
+    margin-left:700px ;
+    margin-top: -645px;
+    
+}
+.weight{
+    margin-top: 45px;
+    font-size: 20px;
+    font-family:  Arial;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.message{
+    margin-top: 25px;
+    font-size: 20px;
+    font-family:  Arial;
+    margin-bottom: 8px;
+    margin-left: 5px;
+}
+.input_message{
+    height: 55px;
+    border: solid 2px black;
+    width: 430px;
+    margin-left: 5px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.cart{
+    height: 50px;
+    width: 213px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: solid 2px black;
+    margin: 2px;
+    margin-left: 5px;
+    margin-top: 40px;
+    background-color: #C68E17;
+}
+.buy{
+    height: 50px;
+    width: 213px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: solid 2px black;
+    margin: 5px;
+    background-color: #C68E17;
+}
+.down_box_product{
+    height: 100px;
+    width: 450px;
+    margin-left: 200px;
+    margin-top: 20px;
 }
