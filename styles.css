@@ -103,7 +103,7 @@ body{
     width: 100%;
     border: solid 2px black;
     margin-top: 10px;
-    background-color: #99cccb;
+    background-color: #e9fefe;
     /* color: white; */
 }
 .footer_head{
@@ -126,12 +126,17 @@ body{
    margin-left: 600px;
    margin-top: -180px;
 }
-.footer_logo{
+.footer_logo_up{
     height: 45px;
     width: 200px;
-    border: solid 2px black;
     margin-left: 830px;
     margin-top: -150px;
+}
+.footer_logo_down{
+    height: 45px;
+    width: 200px;
+    margin-left: 830px;
+    margin-top: 5px;
 }
 
 
