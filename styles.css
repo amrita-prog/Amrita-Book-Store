@@ -1,42 +1,31 @@
 /* home page */
-body{
+body {
     padding: 0;
     margin: 0;
 }
-.upper_box{
-    height : 130px;
+
+.upper_box {
+    height: 130px;
     width: 100%;
-    border: solid 2px black;
+    border: solid 2px #fbf6ff;
     display: flex;
     align-items: center;
-    background-color: #99cccb;
+    background-color: #709cc1;
 }
-.border:hover{
+
+.border:hover {
     border: solid 2px grey;
     border-radius: 20px;
 }
-.book_logo{
+
+.book_logo {
     height: 200px;
     width: 200px;
     background-size: cover;
     margin-left: 100px;
 }
-/* .upstore_name{
-    font-family: Arial;
-    font-size: 50px;  
-    margin-bottom: 40px;
-    align-items:center;  
-    color: white;
-}
-.downstore_name{
-    font-family: Arial;
-    font-size: 30px;
-    margin-top: 40px;
-    margin-left: -145px;
-    align-items:center;  
-    color: white;
-} */
-.about{
+
+.about {
     height: 50px;
     width: 140px;
     margin-left: 20px;
@@ -44,7 +33,8 @@ body{
     font-size: 20px;
     font-family: Georgia;
 }
-.contact{
+
+.contact {
     height: 50px;
     width: 150px;
     margin-left: 20px;
@@ -52,7 +42,8 @@ body{
     font-size: 20px;
     font-family: Georgia;
 }
-.shopping{
+
+.shopping {
     height: 50px;
     width: 150px;
     margin-left: 20px;
@@ -60,7 +51,8 @@ body{
     font-size: 20px;
     font-family: Georgia;
 }
-.Home{
+
+.Home {
     height: 50px;
     width: 150px;
     margin-left: 330px;
@@ -68,45 +60,101 @@ body{
     font-size: 20px;
     font-family: Georgia;
 }
-.left{
+
+.left {
     height: 300px;
     width: 500px;
     /* border: solid 2px black; */
     margin-left: 160px;
     margin-top: 150px;
     font-size: 85px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     /* background-color: lavender; */
 }
-.image{
+
+.image {
     height: 90px;
     width: 90px;
 }
-.right{
-    height: 400px;
+
+.right {
+    height: 700px;
     width: 500px;
-    border: solid 2px black;
-    background-image: url(img/front.jpg);
+    background-image: url(img/girlsbook.png);
     background-size: cover;
-    margin-left: 860px;
-    margin-top: -350px;
+    margin-left: 1014px;
+    margin-top: -450px;
 }
-.bottom_box{
+
+.bottom_box {
     height: 700px;
     width: 100%;
-    border: solid 2px black;
+    border: solid 1px #fbf6fe;
     /* margin:auto; */
-    margin-top: 10px;
-    background-color: rgb(227, 164, 216);
+    /* margin-top: 10px; */
+    background-image: url(img/background.jpeg);
+    background-size: cover;
 }
-.footer{
+
+.body_front {
+    height: 600px;
+    width: 100%;
+    border: solid 1px black;
+}
+.feature1{
+    height: 250px;
+    width: 350px;
+    border: solid 2px black;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color:#b7dcee;
+}
+.feature2{
+    height: 250px;
+    width: 350px;
+    border: solid 2px black;
+    border-radius: 20px;
+    margin-left: 450px;
+    margin-top: -195px;
+    background-color:#b7dcee;
+}
+.feature3{
+    height: 250px;
+    width: 350px;
+    border: solid 2px black;
+    border-radius: 20px;
+    margin-left: 900px;
+    margin-top: -252px;
+    background-color:#b7dcee;
+}
+
+/* .left_photo {
+    height: 400px;
+    width: 400px;
+    border: solid 1px black;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.right_pic_churan {
+    height: 400px;
+    width: 400px;
+    border: solid 1px black;
+    margin-left: 900px;
+    margin-top: -400px;
+} */
+
+.footer {
     height: 300px;
     width: 100%;
-    border: solid 2px black;
-    margin-top: 10px;
-    background-color: #e9fefe;
+    border: solid 2px #aa8bbd;
+    /* margin-top: 10px; */
+    background-color: #749dd3;
     /* color: white; */
 }
-.footer_head{
+
+.footer_head {
     /* color: white; */
     width: 680px;
     /* border: solid 2px white; */
@@ -114,25 +162,30 @@ body{
     margin-left: 430px;
     margin-top: 20px;
 }
-.thing_left{
+
+.thing_left {
     margin-left: 300px;
     margin-top: 50px;
 }
-.thing_right{
+
+.thing_right {
     margin-left: 450px;
     margin-top: -120px;
 }
-.amrita{
-   margin-left: 600px;
-   margin-top: -180px;
+
+.amrita {
+    margin-left: 600px;
+    margin-top: -180px;
 }
-.footer_logo_up{
+
+.footer_logo_up {
     height: 45px;
     width: 200px;
     margin-left: 830px;
     margin-top: -150px;
 }
-.footer_logo_down{
+
+.footer_logo_down {
     height: 45px;
     width: 200px;
     margin-left: 830px;
@@ -145,21 +198,22 @@ body{
 
 
 
-.down_box{
+.down_box {
     height: 700px;
     width: 100%;
-    border: solid 2px black;
+    border: solid 2px #aa8bbd;
     /* margin:auto; */
-    margin-top: 10px;
     background-image: url(img/exbook.jpg);
     background-size: cover;
 }
-.contact_table{
+
+.contact_table {
     width: 600px;
     margin-left: 470px;
-    
+
 }
-input{
+
+input {
     border-radius: 10px;
     padding: 10px;
     border: solid 3px brown;
@@ -167,7 +221,8 @@ input{
     font-size: 18px;
     width: 350px;
 }
-.btn{
+
+.btn {
     width: 510px;
     height: 50px;
     background-color: #ba5d2f;
@@ -176,7 +231,8 @@ input{
     border-color: white;
     font-size: 21px;
 }
-textarea{
+
+textarea {
     width: 350px;
     border-radius: 10px;
     padding: 10px;
@@ -184,30 +240,31 @@ textarea{
     text-align: left;
     font-size: 18px;
 }
-.h1{
+
+.h1 {
     margin-left: 650px;
     color: white;
 }
-label{
+
+label {
     font-size: 21px;
     color: white;
 }
-.location{
-    margin-left: 1370px;
-    margin-top: -650px;
-    color: white;
-    font-size: 25px;
-    
-}
-.dn_box{
+
+
+
+/* about page */
+
+
+.dn_box {
     height: 1000px;
     width: 100%;
-    border: solid 2px black;
-    margin-top: 10px;
+    border: solid 2px rgb(227, 164, 216);
     background-image: url(img/readbook.jpg);
     background-size: cover;
 }
-.up_left_box{
+
+.up_left_box {
     height: 250px;
     width: 400px;
     border: solid 2px beige;
@@ -216,18 +273,21 @@ label{
     margin-top: 50px;
     background-color: beige;
 }
-.heading1{
+
+.heading1 {
     font-size: 25px;
     margin-top: 25px;
     margin-left: 25px;
 }
-.churan1{
+
+.churan1 {
     font-size: 16px;
     margin-top: 35px;
     margin-left: 25px;
-    margin-right:25px ;
+    margin-right: 25px;
 }
-.dn_left_box{
+
+.dn_left_box {
     height: 250px;
     width: 400px;
     border: solid 2px beige;
@@ -236,18 +296,21 @@ label{
     margin-top: 30px;
     background-color: beige;
 }
-.heading2{
+
+.heading2 {
     font-size: 25px;
     margin-top: 25px;
     margin-left: 25px;
 }
-.churan2{
+
+.churan2 {
     font-size: 16px;
     margin-top: 35px;
     margin-left: 25px;
-    margin-right:25px ;
+    margin-right: 25px;
 }
-.up_right_box{
+
+.up_right_box {
     height: 250px;
     width: 400px;
     border: solid 2px beige;
@@ -256,68 +319,79 @@ label{
     margin-top: -535px;
     background-color: beige;
 }
-.heading3{
+
+.heading3 {
     font-size: 25px;
     margin-top: 25px;
     margin-left: 25px;
 }
-.churan3{
+
+.churan3 {
     font-size: 16px;
     margin-top: 35px;
     margin-left: 25px;
-    margin-right:25px ;
+    margin-right: 25px;
 }
-.dn_right_box{
+
+.dn_right_box {
     height: 250px;
     width: 400px;
     border: solid 2px beige;
     border-radius: 18px;
     margin-left: 800px;
     margin-top: 30px;
-    background-color: beige; 
+    background-color: beige;
 }
-.heading4{
+
+.heading4 {
     font-size: 25px;
     margin-top: 25px;
     margin-left: 25px;
 }
-.churan4{
+
+.churan4 {
     font-size: 16px;
     margin-top: 35px;
     margin-left: 25px;
-    margin-right:25px ;
+    margin-right: 25px;
 }
-.heading{
+
+.heading {
     font-size: 25px;
-    margin-left:300px ;
+    margin-left: 300px;
     margin-top: 40px;
 }
-.main_heading{
+
+.main_heading {
     margin-left: 700px;
     margin-top: 50px;
 }
 
 /* cart page */
-.b_box{
-    height: 1050px;
+.b_box {
+    height: 1750px;
     width: 100%;
     /* border: solid 2px ; */
 }
-.prod{
+
+.prod {
     height: 350px;
     border: solid 2px black;
-    align-items: center ;
+    align-items: center;
     border-radius: 10px;
 }
-.main_table{
+
+.main_table {
     height: 300px;
     border: solid 2px black;
     width: 400px;
 }
-.table{
+
+.table {
     margin: auto;
 }
-.service{
+
+.service {
     height: 50px;
     width: 1333px;
     border: solid 2px black;
@@ -326,31 +400,36 @@ label{
     border-radius: 15px;
     margin-left: 85px;
     margin-top: 15px;
-    background-color:#c58f74;
+    background-color: #c58f74;
     color: white;
 }
-.table_td{
+
+.table_td {
     margin: auto;
     border-radius: 10px;
-    background-color:#d48bc1;
+    background-color: #d48bc1;
 }
-.cart_img{
+
+.cart_img {
     border: solid 2px black;
-    margin-left:27px;
-    margin-right:27px;
+    margin-left: 27px;
+    margin-right: 27px;
     margin-top: 20px;
 }
-.h2_cake{
+
+.h2_cake {
     /* margin: auto; */
     margin-left: 80px;
     font-size: 20px;
 }
-.p_cake{
+
+.p_cake {
     margin-left: 80px;
     margin-top: -10px;
 }
-.btn_book_cart{
-    
+
+.btn_book_cart {
+
     height: 50px;
     width: 100px;
     font-size: 15px;
@@ -364,14 +443,15 @@ label{
 /** product page **/
 
 
-.prod_down{
+.prod_down {
     height: 700px;
     width: 100%;
     border: solid 2px black;
-    background-color:#bfdddc;
+    background-color: #bfdddc;
     margin-top: 10px;
 }
-.product{
+
+.product {
     height: 525px;
     width: 350px;
     border: solid 4px black;
@@ -379,32 +459,38 @@ label{
     margin-left: 250px;
     background-size: cover;
 }
-.prod_name{
+
+.prod_name {
     font-size: 38px;
     /* margin-left: 730px;
     margin-top: -450px; */
 }
-.rating{
+
+.rating {
     /* margin-left: 70px; */
     margin-top: 3px;
     height: 30px;
 
 }
-.checked{
+
+.checked {
     color: orange;
 }
-.price{
+
+.price {
     /* margin-left: 740px; */
     margin-top: 50px;
     font-size: 27px;
 }
-.gst{
+
+.gst {
     margin-top: -24px;
     font-size: 16px;
     margin-left: 90px;
     color: rgb(77, 36, 172);
 }
-button{
+
+button {
     height: 50px;
     width: 70px;
     margin-top: 15px;
@@ -414,29 +500,33 @@ button{
     /* background-color: #C68E17; */
     /* margin-left: 100px; */
 }
-.right_box{
-    height:600px ;
+
+.right_box {
+    height: 600px;
     width: 450px;
     border: solid 4px #bfdddc;
-    margin-left:700px ;
+    margin-left: 700px;
     margin-top: -645px;
-    
+
 }
-.weight{
+
+.weight {
     margin-top: 45px;
     font-size: 20px;
-    font-family:  Arial;
+    font-family: Arial;
     margin-bottom: 5px;
     margin-left: 5px;
 }
-.message{
+
+.message {
     margin-top: 25px;
     font-size: 20px;
-    font-family:  Arial;
+    font-family: Arial;
     margin-bottom: 8px;
     margin-left: 5px;
 }
-.input_message{
+
+.input_message {
     height: 55px;
     border: solid 2px black;
     width: 430px;
@@ -444,7 +534,8 @@ button{
     border-radius: 10px;
     font-size: 18px;
 }
-.cart{
+
+.cart {
     height: 50px;
     width: 213px;
     margin-top: 15px;
@@ -455,7 +546,8 @@ button{
     margin-top: 40px;
     background-color: #C68E17;
 }
-.buy{
+
+.buy {
     height: 50px;
     width: 213px;
     margin-top: 15px;
@@ -464,7 +556,8 @@ button{
     margin: 5px;
     background-color: #C68E17;
 }
-.down_box_product{
+
+.down_box_product {
     height: 100px;
     width: 450px;
     margin-left: 200px;
